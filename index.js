@@ -1,30 +1,8 @@
-/**
- * This is the main entrypoint to your Probot app
- * @param {import('probot').Probot} app
- */
-module.exports = (app) => {
-  // Your code here
-  app.log.info("Yay, the app was loaded!");
+// index.js
+const { run } = require('@probot/adapter-github-actions')
+const app = require("./app");
 
-  app.on("issues.opened", async (context) => {
-    const issueComment = context.issue({
-      body: "Thanks for opening this issue! we will be going to assign this to right developer",
-    });
-    const assignee = context.issue({
-      assignees: "ejazsyed",
-    })
-    context.octokit.issues.createComment(issueComment);
-    context.octokit.issues.addLabels(
-      context.issue({
-      labels: ["bug", "documentation"],
-      })
-      )
-    return context.octokit.issues.addAssignees(assignee)
-  });
-
-  // For more information on building apps:
-  // https://probot.github.io/docs/
-
-  // To get your app running against GitHub, see:
-  // https://probot.github.io/docs/development/
-};
+run(app).catch((error) => {
+  console.error(error);
+  process.exit(1);
+});
