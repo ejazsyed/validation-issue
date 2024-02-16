@@ -7,9 +7,6 @@ on:
 jobs:
   sayHelloWorld:
     runs-on: ubuntu-latest
-    runs:
-      using: "node12"
-      main: "index.js"
     steps:
       - uses: probot/example-github-action@v1
         env:
