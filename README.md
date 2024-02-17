@@ -3,12 +3,10 @@
 
 ## Feature
 
-- Automatically assign the labels based on the filled template.
-- Automatically assign the responsible developer based on scenario.
-- Automatically comment the issue. 
-
-> [!NOTE]  
-> Highlights information that users should take into account, even when skimming.
+> [!Feature]  
+> Automatically assign the labels based on the filled template.
+> Automatically assign the responsible developer based on scenario.
+> Automatically comment the issue. 
 
 > [!TIP]
 > Optional information to help a user be more successful.
