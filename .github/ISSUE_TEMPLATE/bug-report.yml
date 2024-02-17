@@ -7,11 +7,19 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
         
-        Before filing an issue, please:
-        - check the [Troubleshooting guide](https://cap.cloud.sap/docs/get-started/troubleshooting)
-        - make sure to [search for your error message in past issues](https://github.tools.sap/cap/issues/search?q=%22%3Cerror+message+here%3E%22&type=issues)
-        - update your dependencies to the latest available version
-
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      description: What version of our software are you running?
+      options:
+        - Mission (Default)
+        - Golden Path
+        - Others
+      default: Mission (Default)
+    validations:
+      required: true
+      
   - type: textarea
     id: what-happened
     attributes:
