@@ -1,6 +1,6 @@
-# Refapp-Bot - Bot to track validation issue.
+# refapp-bot : Powered by SAP BTP 
 
-## Powered by SAP BTP.
+## Bot to track validation issue.
 
 ## Feature
 
