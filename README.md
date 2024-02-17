@@ -8,7 +8,7 @@
 title: Groundstation
 ---
 flowchart LR
-    start(( )) --> p1{+}
+    start(( )) --> p1{refapp-bot}
     p1 --> Preparation["Preparation\n⊞"]
     p1 --> forceStart["Watchdog for Force Started Services\n⊞"]
     p1 --> kickoffmail["Kickoff E-Mail\n⊞"]
