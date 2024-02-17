@@ -22,7 +22,7 @@ body:
     id: landscape
     attributes:
       label: Landscape
-      description: which lanscape?
+      description: which landscape?
       options:
         - Factory
         - Canary
