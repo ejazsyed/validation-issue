@@ -1,0 +1,60 @@
+name: Bug Report
+description: Create a report to help us improve
+labels: ["BUG"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+        
+        Before filing an issue, please:
+        - check the [Troubleshooting guide](https://cap.cloud.sap/docs/get-started/troubleshooting)
+        - make sure to [search for your error message in past issues](https://github.tools.sap/cap/issues/search?q=%22%3Cerror+message+here%3E%22&type=issues)
+        - update your dependencies to the latest available version
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also, what did you expect to happen?
+      placeholder: |
+        When executing this code:
+        ```js/java
+        ...
+        ```
+        we get this error: `RuntimeError: <message>`.
+        
+        This is not coherent with the behavior documented in https://cap.cloud.sap/some/page.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: If possible, provide a minimal reproducible sample.
+      placeholder: |
+        cds init bookshop --add tiny-sample
+        cd bookshop
+        cds watch
+        POST http://localhost:4004/odata/v4/catalog/Books { "some": "data" }
+        BOOM!
+    validations:
+      required: true
+  - type: textarea
+    id: versions
+    attributes:
+      label: Versions
+      description: |
+        Run `cds v -i` in your project and copy the output here. 
+        Also include a link to the branch in your GitHub repo.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: |
+        To simplify analysis, activate relevant `DEBUG` channels before gathering logs. → [Node.js](https://cap.cloud.sap/docs/node.js/cds-log#cds-log-modules) → [Java](https://pages.github.tools.sap/cap/docs/java/observability#predefined-loggers)
+        
+        Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
