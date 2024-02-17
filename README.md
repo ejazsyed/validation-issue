@@ -3,17 +3,11 @@
 
 ## Feature
 
-```mermaid
----
-title: Groundstation
----
-flowchart LR
-    start(( )) --> p1{refapp-bot}
-    p1 --> Automatically assign the labels based on the filled template
-    p1 --> Automatically assign the responsible developer based on scenario.
-    p1 --> Automatically comment the issue. 
- 
-```
+
+
+- Automatically assign the labels based on the filled template.
+- Automatically assign the responsible developer based on scenario.
+- Automatically comment the issue. 
 
 > [!NOTE]  
 > More customize feature is in progress!!!!!!
