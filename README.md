@@ -9,9 +9,9 @@ title: Groundstation
 ---
 flowchart LR
     start(( )) --> p1{refapp-bot}
-    p1 --> Preparation["Preparation\n⊞"]
-    p1 --> forceStart["Watchdog for Force Started Services\n⊞"]
-    p1 --> kickoffmail["Kickoff E-Mail\n⊞"]
+    p1 --> Automatically assign the labels based on the filled template
+    p1 --> Automatically assign the responsible developer based on scenario.
+    p1 --> Automatically comment the issue. 
     Preparation --> deployCFCore["Deploy CF Core\n⊞"]
     deployCFCore --> validateCFCore["Validate CF Core\n⊞"]
     validateCFCore --> finishDO1["Set Deployment Order 1\nServices to 'confirmed'\n⊞"]
@@ -20,10 +20,6 @@ flowchart LR
     kickoffmail --> e1
     serviceDeployment --> e1
 ```
-
-- Automatically assign the labels based on the filled template.
-- Automatically assign the responsible developer based on scenario.
-- Automatically comment the issue. 
 
 > [!NOTE]  
 > More customize feature is in progress!!!!!!
