@@ -8,4 +8,4 @@ This bot is developed in SAP Cloud Application Programming Model(CAP), Powered b
 - Automatically assign the responsible developer based on scenario.
 - Automatically comment the issue. 
 
-### More feature is in progress!!!!!!
+### More customize feature is in progress!!!!!!
