@@ -1,6 +1,6 @@
-# Bot to track validation issue.
+# Refapp-Bot - Bot to track validation issue.
 
-This bot is developed in SAP Cloud Application Programming Model(CAP), Powered by SAP BTP and Probot.
+## Powered by SAP BTP.
 
 ## Feature
 
