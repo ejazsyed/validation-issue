@@ -11,11 +11,23 @@ body:
     id: topic
     attributes:
       label: Topic
-      description: What version of our software are you running?
+      description: What scenario are you running?
       options:
-        - Mission (Default)
+        - Mission
         - Golden Path
         - Others
+    validations:
+      required: true
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact
+      description: Who is getting impacted?
+      options:
+        - Internal
+        - External
+        - Both
     validations:
       required: true
       
