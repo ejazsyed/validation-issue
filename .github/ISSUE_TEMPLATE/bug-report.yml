@@ -1,11 +1,22 @@
 name: Bug Report
 description: Create a bug report to help us improve
-labels: ["BUG"]
+labels: ["BUG", "DOCUMENTATION"]
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+
+  - type: dropdown
+    id: issue
+    attributes:
+      label: Issue
+      description: where is the issue?
+      options:
+        - Bug
+        - Documentation
+    validations:
+      required: true
         
   - type: dropdown
     id: topic
@@ -30,7 +41,7 @@ body:
         - Both
     validations:
       required: true
-      
+
   - type: textarea
     id: what-happened
     attributes:
@@ -43,9 +54,18 @@ body:
         ```
         we get this error: `RuntimeError: <message>`.
         
-        This is not coherent with the behavior documented in https://cap.cloud.sap/some/page.
+        if there is documentation issue, describe the expected behavour and attach snapshot.
     validations:
       required: true
+
+  - type: textarea
+    id: where-happened
+    attributes:
+      label: Where is the issue?
+      description: Attach the link, so that we can directly jumo there.
+    validations:
+      required: true
+
   - type: textarea
     id: reproduce
     attributes:
@@ -58,7 +78,7 @@ body:
         POST http://localhost:4004/odata/v4/catalog/Books { "some": "data" }
         BOOM!
     validations:
-      required: true
+      required: false
   - type: textarea
     id: versions
     attributes:
@@ -67,7 +87,7 @@ body:
         Run `cds v -i` in your project and copy the output here. 
         Also include a link to the branch in your GitHub repo.
     validations:
-      required: true
+      required: false
   - type: textarea
     id: logs
     attributes:
