@@ -8,6 +8,17 @@ body:
         Thanks for taking the time to fill out this bug report!
 
   - type: dropdown
+    id: team
+    attributes:
+      label: Team
+      description: which team is responsible?
+      options:
+        - Refapp
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
     id: issue
     attributes:
       label: Issue
