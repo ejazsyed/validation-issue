@@ -19,6 +19,17 @@ body:
       required: true
 
   - type: dropdown
+    id: landscape
+    attributes:
+      label: Landscape
+      description: which lanscape?
+      options:
+        - Factory
+        - Canary
+    validations:
+      required: true
+
+  - type: dropdown
     id: issue
     attributes:
       label: Issue
