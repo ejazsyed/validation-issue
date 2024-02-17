@@ -2,8 +2,8 @@
 <h2 align="center">Bot to track validation issue</h2>
 
 > [!NOTE]  
-> Automatically assign the labels based on the filled template.
-> Automatically assign the responsible developer based on scenario.
+- Automatically assign the labels based on the filled template.
+- Automatically assign the responsible developer based on scenario.
 - Automatically comment the issue. 
 
 > [!TIP]
