@@ -1,0 +1,53 @@
+name: Documentation Report
+description: Create a documentation report to help us improve
+labels: ["DOCUMENTATION"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this documentation report!
+        
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      description: What scenario are you running?
+      options:
+        - Mission
+        - Golden Path
+        - Others
+    validations:
+      required: true
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact
+      description: Who is getting impacted?
+      options:
+        - Internal
+        - External
+        - Both
+    validations:
+      required: true
+
+  - type: textarea
+    id: hyperlink
+    attributes:
+      label: Attach Documentation link?
+      description: send us there?
+      placeholder: |
+        attach the documentation link, so that we can quickly reach there.
+    validations:
+      required: true
+      
+  - type: textarea
+    id: what-is-there
+    attributes:
+      label: expected state?
+      description: Also, what did you expect to happen?
+      placeholder: |
+        Write some text about what is expected from documentation. Attach updated image if possible.
+    validations:
+      required: true
+
