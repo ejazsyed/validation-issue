@@ -16,7 +16,6 @@ body:
         - Mission (Default)
         - Golden Path
         - Others
-      default: Mission (Default)
     validations:
       required: true
       
