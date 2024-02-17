@@ -12,13 +12,7 @@ flowchart LR
     p1 --> Automatically assign the labels based on the filled template
     p1 --> Automatically assign the responsible developer based on scenario.
     p1 --> Automatically comment the issue. 
-    Preparation --> deployCFCore["Deploy CF Core\n⊞"]
-    deployCFCore --> validateCFCore["Validate CF Core\n⊞"]
-    validateCFCore --> finishDO1["Set Deployment Order 1\nServices to 'confirmed'\n⊞"]
-    finishDO1 --> serviceDeployment["Service Deployment\n∥⊞"]
-    forceStart --> e1(( ))
-    kickoffmail --> e1
-    serviceDeployment --> e1
+ 
 ```
 
 > [!NOTE]  
