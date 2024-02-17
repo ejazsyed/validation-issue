@@ -1,7 +1,5 @@
-<p align="center">
-    <img width="200" src="http://material-bread.org/logo-shadow.svg" alt="Material Bread logo">
-</p>
-# refapp-bot : Powered by SAP BTP 
+<h1 align="center">refapp-bot</h1>
+<h2 align="center">Bot to track validation issue</h2>
 
 ## Bot to track validation issue.
 
