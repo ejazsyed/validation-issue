@@ -46,8 +46,8 @@ body:
       label: Topic
       description: What scenario are you running?
       options:
-        - Mission
         - Golden Path
+        - Mission
         - Others
     validations:
       required: true
