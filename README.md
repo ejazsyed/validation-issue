@@ -8,7 +8,7 @@
 title: Flow Chart
 ---
 flowchart LR
-    start((new issue created)) --> p1{refapp-bot}
+    start((new issue created)) --> p1{refapp-bot 🤖 }
     p1 --> assignee["Predict and assign the responsible developer 👤 based on scenario\n⊞"]
     p1 --> label["Predict and add the labels 🏷️ based on the filled template\n⊞"]
     p1 --> comment["Automatically comment 💬 the issue\n⊞"]
