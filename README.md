@@ -16,7 +16,7 @@ flowchart LR
     label --> e1
     comment --> e1
 ```
-       👤
+
 > [!NOTE]  
 > More customize feature is in progress!!!!!!
 
