@@ -3,17 +3,25 @@
 
 ## Feature
 
-
-
-- Automatically assign the labels based on the filled template.
-- Automatically assign the responsible developer based on scenario.
-- Automatically comment the issue. 
+```mermaid
+---
+title: Groundstation
+---
+flowchart LR
+    start(( )) --> p1{}
+    p1 --> assignee["Automatically assign the labels based on the filled template\n⊞"]
+    p1 --> label["Automatically assign the responsible developer based on scenario\n⊞"]
+    p1 --> comment["Automatically comment the issue\n⊞"]
+    assignee --> e1(( ))
+    label --> e1
+    comment --> e1
+```
 
 > [!NOTE]  
 > More customize feature is in progress!!!!!!
 
 > [!IMPORTANT]  
-> Bot is developed in NodeJS.
+> Bot is to e customized based on speicifc use case.
 
 > [!WARNING]  
 > Don't try to use the bot without permission.
