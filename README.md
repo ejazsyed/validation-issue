@@ -21,7 +21,7 @@ flowchart LR
 > More customize feature is in progress!!!!!!
 
 > [!IMPORTANT]  
-> Bot is to e customized based on speicifc use case.
+> Bot is to be customized based on speicifc use case.
 
 > [!WARNING]  
 > Don't try to use the bot without permission.
