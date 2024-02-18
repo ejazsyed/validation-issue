@@ -1,5 +1,5 @@
 <h1 align="center">refapp-bot 🤖</h1>
-<h2 align="center">Track :octocat: validation issue</h2>
+<h2 align="center">Track :octocat: Validation Issue</h2>
 
 ## Feature
 
