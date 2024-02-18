@@ -5,7 +5,7 @@
 
 ```mermaid
 ---
-title: Flow Chart
+title: 
 ---
 flowchart LR
     start((new issue created)) --> p1{refapp-bot}
