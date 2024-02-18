@@ -5,10 +5,10 @@
 
 ```mermaid
 ---
-title: Groundstation
+title: Flow Chart
 ---
 flowchart LR
-    start(( )) --> p1{}
+    start(( )) --> p1{+}
     p1 --> assignee["Automatically assign the labels based on the filled template\n⊞"]
     p1 --> label["Automatically assign the responsible developer based on scenario\n⊞"]
     p1 --> comment["Automatically comment the issue\n⊞"]
