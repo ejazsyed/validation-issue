@@ -1,6 +1,26 @@
 <h1 align="center">refapp-bot 🤖</h1>
 <h2 align="center">Track :octocat: Validation Issue</h2>
 
+mindmap
+  root((mindmap))
+    Origins
+      Long history
+      ::icon(fa fa-book)
+      Popularisation
+        British popular psychology author Tony Buzan
+    Research
+      On effectiveness<br/>and features
+      On Automatic creation
+        Uses
+            Creative techniques
+            Strategic planning
+            Argument mapping
+    Tools
+      Pen and paper
+      Mermaid
+
+
+
 ## Feature
 
 ```mermaid
