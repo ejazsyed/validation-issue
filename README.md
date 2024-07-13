@@ -1,7 +1,10 @@
 <h1 align="center">refapp-bot 🤖</h1>
 <h2 align="center">Track :octocat: Validation Issue</h2>
 
-```mindmap
+### 
+
+```mermaid
+   mindmap
   root((mindmap))
     Origins
       Long history
