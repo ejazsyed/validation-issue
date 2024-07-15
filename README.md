@@ -1,6 +1,26 @@
 <h1 align="center">refapp-bot 🤖</h1>
 <h2 align="center">Track :octocat: Validation Issue</h2>
 
+
+
+
+```mermaid
+   mindmap
+  root((SAP BTP Developer’s Guide))
+    Research
+      On effectiveness<br/>and features
+      On Automatic creation
+        Uses
+            Creative techniques
+            Strategic planning
+            Argument mapping
+    Tools & System
+      SAP Business Application Studio
+      SAP S/4HANA Cloud
+
+
+
+
 ```mermaid
 block-beta
   columns 3
