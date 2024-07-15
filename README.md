@@ -17,6 +17,7 @@
       CAP
       Fiori Elements
     Tools & System
+      SAP BTP Account
       SAP Business Application Studio
       SAP S/4HANA Cloud
 ```
