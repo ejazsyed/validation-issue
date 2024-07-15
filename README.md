@@ -7,7 +7,7 @@
 ```mermaid
    mindmap
   root((mindmap))
-    Research
+    Full Stack Application
       On effectiveness<br/>and features
       On Automatic creation
         Uses
