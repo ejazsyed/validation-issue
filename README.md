@@ -7,12 +7,18 @@
 ```mermaid
    mindmap
   root((mindmap))
-    Tools & System
-      SAP Business Application Studio
-      SAP S/4HANA Cloud
+    data
+      On effectiveness<br/>and features
+      On Automatic creation
+        Uses
+            Creative techniques
+            Argument mapping
     Full Stack Application
       CAP
       Fiori Elements
+    Tools & System
+      SAP Business Application Studio
+      SAP S/4HANA Cloud
 ```
 
 
