@@ -7,18 +7,18 @@
 ```mermaid
    mindmap
   root((mindmap))
-    Full Stack Application
+    data
       On effectiveness<br/>and features
       On Automatic creation
         Uses
             Creative techniques
-            Strategic planning
             Argument mapping
     Tools & System
       SAP Business Application Studio
       SAP S/4HANA Cloud
-    Full Stack Appl
-      eiero
+    Full Stack Applion
+      CAP
+      Fiori Elements
 ```
 
 
