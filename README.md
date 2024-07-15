@@ -7,12 +7,6 @@
 ```mermaid
    mindmap
   root((mindmap))
-    data
-      On effectiveness<br/>and features
-      On Automatic creation
-        Uses
-            Creative techniques
-            Argument mapping
     Tools & System
       SAP Business Application Studio
       SAP S/4HANA Cloud
