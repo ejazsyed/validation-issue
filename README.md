@@ -6,7 +6,7 @@
 
 ```mermaid
    mindmap
-  root((SAP BTP Developer’s Guide))
+  root((mindmap))
     Research
       On effectiveness<br/>and features
       On Automatic creation
