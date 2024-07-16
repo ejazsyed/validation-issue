@@ -24,10 +24,12 @@
             Integrate SAP Mobile Start
     Demo
       SAP Data
-    Tools & System
-      SAP BTP Account
-      SAP Business Application Studio
-      SAP S/4HANA Cloud
+    Remote Connectivity
+      Extend Incident Management
+      Test with Mock Data locally
+      Prepare for Production
+        Deploy to SAP BTP
+          Run with S/4HANA Backend 
 
 ```
 
