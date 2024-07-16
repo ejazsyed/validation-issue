@@ -24,11 +24,11 @@
             Integrate SAP Mobile Start
     Demo
       SAP Data
-    Remote Connectivity
+    Inplement Remote Connectivity(SAP S/4HANA)
       Extend Incident Management
         Test with Mock Data locally
         Prepare for Production
-          Deploy to SAP BTP
+          Deploy to SAP BTP, CF
             Run with S/4HANA Backend 
 
 ```
