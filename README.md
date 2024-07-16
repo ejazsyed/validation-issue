@@ -7,12 +7,6 @@
 ```mermaid
    mindmap
   root((mindmap))
-    data
-      On effectiveness<br/>and features
-      On Automatic creation
-        Uses
-            Creative techniques
-            Argument mapping
     Develop Full Stack CAP Application 
       Add Custom Logic
       Add Fiori Elements
