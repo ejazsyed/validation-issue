@@ -7,8 +7,10 @@
 ```mermaid
    mindmap
   root((mindmap))
-    Demo
-      SAP Data
+    Tools and System
+      SAP Business Application Studio
+      SAP S/4HANA Cloud
+      SAP BTP Account
     Develop Full Stack CAP Application 
       Add Custom Logic
       Add Fiori Elements
