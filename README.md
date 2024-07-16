@@ -26,6 +26,13 @@
         Prepare for Production
           Deploy to SAP BTP, CF
             Run with S/4HANA Backend 
+    Day 2 Operation
+      Observability
+        SAP Cloud Logging Service
+          Access Logs
+          Metrics
+          Traces
+
 
 ```
 
