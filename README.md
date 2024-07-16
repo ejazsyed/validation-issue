@@ -26,10 +26,10 @@
       SAP Data
     Remote Connectivity
       Extend Incident Management
-      Test with Mock Data locally
-      Prepare for Production
-        Deploy to SAP BTP
-          Run with S/4HANA Backend 
+        Test with Mock Data locally
+        Prepare for Production
+          Deploy to SAP BTP
+            Run with S/4HANA Backend 
 
 ```
 
