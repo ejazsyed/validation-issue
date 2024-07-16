@@ -42,8 +42,8 @@ journey
     title Your Journey for SAP BTP Developer Guide
     section Develop Full Stack CAP Application
       Develop CAP+Fiori: 5: Me
-      Prepare for Production: 3: Me
-      Deploy to SAP BTP,CF: 1: Me
+      Prepare for Production: 5: Me
+      Deploy to SAP BTP,CF: 5: Me
     section Implement Remote Connectivity
       Extend Application: 5: Me
       Test Locally: 5: Me
