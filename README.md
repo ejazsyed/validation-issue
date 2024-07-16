@@ -15,6 +15,14 @@
             Argument mapping
     Full Stack Application
       CAP
+        Add Custom Logic
+        Use a Local Launch Page
+        Add Authorization
+        Run Locally
+        Prepare Production
+          Add SAP HANA Cloud
+          Configure XSUAA
+          
       Fiori Elements
     Tools & System
       SAP BTP Account
