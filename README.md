@@ -16,14 +16,13 @@
     Full Stack Application
       CAP
         Add Custom Logic
+        Add Fiori Elements
         Use a Local Launch Page
         Add Authorization
         Run Locally
-        Prepare Production
-          Add SAP HANA Cloud
-          Configure XSUAA
-          
-      Fiori Elements
+        Prepare for Production
+        Deploy to SAP BTP,CF
+        Integrate to SAP Build Workzone
     Tools & System
       SAP BTP Account
       SAP Business Application Studio
