@@ -19,9 +19,9 @@
       Use a Local Launch Page
       Add Authorization
       Prepare for Production
-      Deploy to SAP BTP,CF
-        Integrate to SAP Build Workzone
-          Integrate SAP Mobile Start
+        Deploy to SAP BTP,CF
+          Integrate to SAP Build Workzone
+            Integrate SAP Mobile Start
     Demo
       SAP Data
     Tools & System
