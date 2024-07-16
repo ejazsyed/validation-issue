@@ -7,6 +7,8 @@
 ```mermaid
    mindmap
   root((mindmap))
+    Demo
+      SAP Data
     Develop Full Stack CAP Application 
       Add Custom Logic
       Add Fiori Elements
@@ -16,8 +18,6 @@
         Deploy to SAP BTP,CF
           Integrate to SAP Build Workzone
             Integrate SAP Mobile Start
-    Demo
-      SAP Data
     Inplement Remote Connectivity
       Extend Incident Management
         Test with Mock Data locally
