@@ -13,6 +13,12 @@
         Uses
             Creative techniques
             Argument mapping
+    Tools & System
+      SAP BTP Account
+      SAP Business Application Studio
+      SAP S/4HANA Cloud
+    Demo
+      SAP Data
     Develop Full Stack CAP Application 
       Add Custom Logic
       Add Fiori Elements
@@ -22,12 +28,6 @@
       Deploy to SAP BTP,CF
         Integrate to SAP Build Workzone
           Integrate SAP Mobile Start
-    Tools & System
-      SAP BTP Account
-      SAP Business Application Studio
-      SAP S/4HANA Cloud
-    Demo
-      SAP Data
 
 ```
 
