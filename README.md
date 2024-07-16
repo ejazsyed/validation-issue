@@ -13,16 +13,15 @@
         Uses
             Creative techniques
             Argument mapping
-    Develop Full Stack Application
-      CAP
-        Add Custom Logic
-        Add Fiori Elements
-        Use a Local Launch Page
-        Add Authorization
-        Run Locally
-        Prepare for Production
-        Deploy to SAP BTP,CF
-        Integrate to SAP Build Workzone
+    Develop Full Stack CAP Application 
+      Add Custom Logic
+      Add Fiori Elements
+      Use a Local Launch Page
+      Add Authorization
+      Run Locally
+      Prepare for Production
+    Deploy to SAP BTP,CF
+      Integrate to SAP Build Workzone
     Tools & System
       SAP BTP Account
       SAP Business Application Studio
