@@ -6,7 +6,7 @@
 
 ```mermaid
    mindmap
-  root((BTP Guide))
+  root((SAP BTP Guide))
     Tools and System
       SAP Business Application Studio
       SAP S/4HANA Cloud
