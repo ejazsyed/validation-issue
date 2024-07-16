@@ -39,7 +39,7 @@
 
 ```mermaid
 journey
-    title SAP BTP Developer Guide
+    title Your Journey for SAP BTP Developer Guide
     section Develop Full Stack CAP Application
       Develop CAP+Fiori: 5: Me
       Prepare for Production: 3: Me
