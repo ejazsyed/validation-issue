@@ -24,7 +24,7 @@
             Integrate SAP Mobile Start
     Demo
       SAP Data
-    Inplement Remote Connectivity(SAP S/4HANA)
+    Inplement Remote Connectivity
       Extend Incident Management
         Test with Mock Data locally
         Prepare for Production
