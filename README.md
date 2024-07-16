@@ -18,7 +18,6 @@
       Add Fiori Elements
       Use a Local Launch Page
       Add Authorization
-      Run Locally
       Prepare for Production
       Deploy to SAP BTP,CF
         Integrate to SAP Build Workzone
