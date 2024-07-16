@@ -13,7 +13,7 @@
         Uses
             Creative techniques
             Argument mapping
-    Full Stack Application
+    Develop Full Stack Application
       CAP
         Add Custom Logic
         Add Fiori Elements
