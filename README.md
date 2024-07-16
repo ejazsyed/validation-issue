@@ -43,7 +43,7 @@ journey
     section Develop Full Stack CAP Application
       Develop CAP+Fiori: 5: Me
       Prepare for Production: 3: Me
-      Deploy to SAP BTP,CF: 1: Me, Cat
+      Deploy to SAP BTP,CF: 1: Me
     section Implement Remote Connectivity
       Extend Application: 5: Me
       Test Locally: 5: Me
@@ -51,7 +51,7 @@ journey
       Run with S/4HANA Backend: 5: Me 
     section Day 2 Operation
       SAP Cloud Logging Service: 5: Me
-      Access Logs,Metrics and Traces: 5: Me
+      Access Logs,Metrics and Traces: 5: Me,Champion
 ```
 
 
