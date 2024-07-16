@@ -39,7 +39,7 @@
 
 ```mermaid
 journey
-    SAP BTP Developer Guide
+    title SAP BTP Developer Guide
     section Develop Full Stack CAP Application
       Develop CAP+Fiori: 5: Me
       Prepare for Production: 3: Me
@@ -53,9 +53,6 @@ journey
       SAP Cloud Logging Service: 5: Me
       Access Logs,Metrics and Traces: 5: Me
 ```
-
-
-
 
 
 
